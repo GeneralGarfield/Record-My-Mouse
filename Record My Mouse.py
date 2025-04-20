@@ -122,7 +122,7 @@ def mouse_record():
         if confirmation.upper() == "Y":
             print("RECORDING. PRESS CTRL + C TO STOP")
 
-            # Move this here so a new file is created each time
+            
             text_output = New_name("Recording", "txt")
 
             with open(text_output, "w") as file:
