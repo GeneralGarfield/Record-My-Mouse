@@ -9,6 +9,8 @@ for another program.
 >THIS APP WILL CAUSE DAMAGE IF ITS RUNNING FOR TOO LONG. AS THERE IS NO TIME LIMIT ON HOW MUCH YOU CAN RECORD.
 USE THIS APP WITH CAUTION IN MIND.
 
+
+
 # Requirements
 You will need pyautogui installed. Use the command provided below to install it.
 
@@ -17,6 +19,9 @@ You will need pyautogui installed. Use the command provided below to install it.
 This program will only work while using IDLE. The latest version of python is needed. Use the link provided below
 
     https://www.python.org/downloads/
+
+>[!TIP]
+>You can alternatively use the EXE file provided in the realeases! 
 
 
 # Credits
