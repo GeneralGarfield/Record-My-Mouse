@@ -62,7 +62,7 @@ def exit_menu():
 
         elif try_again.upper() == "N":
 
-            start()
+            start1()
                 
         else:
 
@@ -79,7 +79,7 @@ def exit_menu():
 
 
 
-def start():
+def start1():
     try:
         
         start = input("Would you like to Start Recording? Y/N: ")
@@ -95,9 +95,7 @@ def start():
         else:
 
             print("Invalid option!")
-
-
-            start()
+            start1()
             
     except KeyboardInterrupt:
         print(" CTRL + C was pressed")
@@ -139,7 +137,7 @@ def mouse_record():
 
         elif confirmation.upper() == "N":
             print("Returning to the start....")
-            start()
+            start1()
         else:
             print("Invalid Option typed.")
             mouse_record()
@@ -154,12 +152,15 @@ def mouse_record():
 
 def main():
     
-    start()
+    start1()
 
 
 
 if __name__ == "__main__":
     main()
         
+        
+    
+
         
     
